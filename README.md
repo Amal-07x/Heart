@@ -1,18 +1,11 @@
-## Getting Started
+# Animated Heart
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A small Java Swing program that draws an animated heart.
 
-## Folder Structure
+## How it works
+A timer updates a value every 30 ms, and the program redraws the window each time. It connects a fixed point to each point on a heart-shaped curve (a parametric equation), so the heart appears to fill in as the animation runs.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## How to run
+1. Install JDK 21 or later.
+2. Open the project folder in VS Code.
+3. Open `src/Heart.java` and click Run above thell Java method.
